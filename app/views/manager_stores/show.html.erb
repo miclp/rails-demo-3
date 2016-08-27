@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Manager:</strong>
+  <%= @manager_store.manager_id %>
+</p>
+
+<p>
+  <strong>Store:</strong>
+  <%= @manager_store.store_id %>
+</p>
+
+<%= link_to 'Edit', edit_manager_store_path(@manager_store) %> |
+<%= link_to 'Back', manager_stores_path %>

@@ -1,0 +1,1 @@
+json.partial! "manager_stores/manager_store", manager_store: @manager_store
